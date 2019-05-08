@@ -16,32 +16,82 @@ Einleitung
         Moderne Programmiersprachen / Paradigmen
 Theoretischer Teil
    - CMS
+     - CMA
+     - CDA
+     - Bestehende Lösungen
+       - Wordpress
+       - Joomla
+       - Drupal
    - DOM https://www.w3.org/DOM/
+     - Geschichte
+     - Standards
+     - Aufbau
    - Virtual DOM
-     - Unterschiede zu "real" DOM
-     - Vorteile / Nachteile
-   - Eventhandling
-   - Datenbank
+     - Definiton
+     - Motivation
+     - Nachteile
+   - State Management
+     - Repräsentation
+     - Änderungen
+   - Datenstrukturen
+     - DBMS
+     - ERM
    - REST
+     - Definition
+     - REST Verben
    - Security (RBAC)
+   - Plugins
+     - Definition
+     - Implementationsansätze
+       - Dynamisch
+       - Statisch
 Methodik
+   - Vergleich von Web-Frontend Sprachen
+     - Javascript
+     - Typescript
+     - WebASM
    - Eisen vs Vue vs React vs etc
-   - Spring vs JavaEE vs Laravel etc
+     - Angular
+     - Vue
+     - JQuery
+     - Eigene Implentation
+   - Vergleich von Web-Backend Sprachen
+     - Java
+     - Go
+     - Javascript
+   - Spring vs Play vs Spark (Web Backend Frameworks)
+     - Spring
+     - Play
+     - Java EE
    - Mysql vs Mongo vs etc
-   - TS vs JS
-Ergebnisse / Implementation
+     - Relational
+     - Docuement Orientend
+Umsetzung
    - Virtual DOM
      - Datenstrukturen
      - Ablauf (Flussdiagramme etc)
        - Diff von 2 Bäumen
        - Entscheidung wann etwas gerendert wird
-   - Routing / Komponenten
+       - Routing / Komponenten
+   - Backend
+     - Datenstrukturen
+     - Security (RBAC)
+     - Datenbankkommunikation
+     - REST Spezifikation
+   - Frontend
+     - Designentscheidungen
+     - Implementationsdetails
    - Plugins / Buildpipeline / Bootstrapping
+     - Versionierung
+     - Abhängigkeitsmanagement
+     - Bootstrapping
+       - Backend
+       - Frontend
+       - Docker
    - Plugin SDK
-   - Security (RBAC)
-Disskusion
-   - Dynamisches laden von Plugins
-   - Erfordernis von statischem Laden von Plugins
-   - Evtl zukünftige Erweiterungen
+Diskussion
+   - Plugins: Dynamischer Ansatz
+   - Ausblick
 Fazit
    - Einschätzung unserer Lösung in Hinsicht auf das Thema
+Literaturverzeichnis
