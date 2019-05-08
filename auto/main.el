@@ -11,13 +11,20 @@
    (TeX-run-style-hooks
     "latex2e"
     "info"
-    "./samplechapter"
+    "./abkuertzungen"
+    "./einleitung"
+    "./theorie"
+    "./methodik"
+    "./umsetzung"
+    "./diskussion"
+    "./fazit"
     "report"
     "rep12"
     "setspace"
     "template"
     "listings"
-    "color")
+    "color"
+    "acronym")
    (LaTeX-add-color-definecolors
     "dkgreen"
     "gray"
