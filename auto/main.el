@@ -18,6 +18,7 @@
     "./umsetzung"
     "./diskussion"
     "./fazit"
+    "./bib"
     "report"
     "rep12"
     "setspace"
