@@ -1,0 +1,47 @@
+Abbildungsverzeichnis
+Tabellenverzeichnis
+Abkürzungsverzeichnis
+
+Einleitung
+  - Was ist das Thema?
+        Umsetzung eines modernen CMS
+        SinglePage Architektur
+        Komplett modular
+        Headless CMS / Content as a Service / MVVM (Model View Viewmodel)
+  - Was wurde untersucht?
+        Virtueller DOM
+        Modulare Architektur in Front und Backend
+        Bootstrapping der gesamten Applikation
+        Container Lösungen
+        Moderne Programmiersprachen / Paradigmen
+Theoretischer Teil
+   - CMS
+   - DOM https://www.w3.org/DOM/
+   - Virtual DOM
+     - Unterschiede zu "real" DOM
+     - Vorteile / Nachteile
+   - Eventhandling
+   - Datenbank
+   - REST
+   - Security (RBAC)
+Methodik
+   - Eisen vs Vue vs React vs etc
+   - Spring vs JavaEE vs Laravel etc
+   - Mysql vs Mongo vs etc
+   - TS vs JS
+Ergebnisse / Implementation
+   - Virtual DOM
+     - Datenstrukturen
+     - Ablauf (Flussdiagramme etc)
+       - Diff von 2 Bäumen
+       - Entscheidung wann etwas gerendert wird
+   - Routing / Komponenten
+   - Plugins / Buildpipeline / Bootstrapping
+   - Plugin SDK
+   - Security (RBAC)
+Disskusion
+   - Dynamisches laden von Plugins
+   - Erfordernis von statischem Laden von Plugins
+   - Evtl zukünftige Erweiterungen
+Fazit
+   - Einschätzung unserer Lösung in Hinsicht auf das Thema
