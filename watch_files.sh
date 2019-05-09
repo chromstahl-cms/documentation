@@ -5,6 +5,8 @@ if ! [ -x "$(command -v inotifywait)" ]; then
     exit 1
 fi
 
+./latexdockercmd.sh latexmk -cd -f -interaction=batchmode -pdf main.tex
+
 inotifywait -m -r -e close_write --format '%w%f' "." | while read MODIFIED
 do
     if [[ $MODIFIED == *.tex ]] ;
