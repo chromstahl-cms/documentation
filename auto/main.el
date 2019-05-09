@@ -25,7 +25,10 @@
     "template"
     "listings"
     "color"
-    "acronym")
+    "acronym"
+    "enumitem")
+   (TeX-add-symbols
+    '("captionsource" 1))
    (LaTeX-add-color-definecolors
     "dkgreen"
     "gray"
