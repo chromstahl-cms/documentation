@@ -67,6 +67,18 @@ die \ac{DOM}-\ac{API} Aufrufe ausführen.
 \subsection{Repräsentation}
 \subsection{Änderungen}
 \section{\acl{SPA}}
+Eine \ac{SPA} beschreibt eine Web-Applikation, die auf einer Webseite abgebildet ist. Dies wird realisiert, indem die gesamte Präsentationslogik, im Kontrast zu traditionellen Webanwendungen, im Browser implementiert wird.\cite{SPA} 
+\begin{figure}
+  \begin{center}
+    \includegraphics[scale=1]{images/traditonal_web_app.png}
+  \end{center}
+  \caption{Traditionelle Web Anwendung}
+  \captionsource{Eigenes Werk}
+  \label{fig:tradweb}
+\end{figure}
+\subsection{Unterscheidung}
+Traditionelle Webanwendungen (siehe Abbildung \ref{fig:tradweb}) lösen bei jeder Anfrage des Nutzers einen Roundtrip \footnote{Senden einer Anfrage an einen Server und Erhalt der entsprechenden Antwort} aus zum Server aus. Serverseitig wird der Request von einem Controller entgegengenommen. Dieser agiert mit dem Model, welches die Daten der Anwendung enthält, und antwortet mit einem neuem \ac{HTML} - Dokument, welches der Browser schließlich anzeigt. Für den Nutzer ist dies durch das aktualisieren der gesamten Webseite sichtbar.
+
 \section{Datenstrukturen}
 \subsection{\acl{DBMS}}
 \subsection{\acl{ERM}}
