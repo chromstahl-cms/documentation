@@ -5,6 +5,8 @@
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "lstinline")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "lstinline")
    (LaTeX-add-bibitems
-    "harold"))
+    "harold"
+    "SPA"
+    "cleancode"))
  :latex)
 
