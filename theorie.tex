@@ -68,6 +68,8 @@ die \ac{DOM}-\ac{API} Aufrufe ausführen.
 \subsection{Änderungen}
 \section{\acl{SPA}}
 Eine \ac{SPA} beschreibt eine Web-Applikation, die auf einer Webseite abgebildet ist. Dies wird realisiert, indem die gesamte Präsentationslogik, im Kontrast zu traditionellen Webanwendungen, im Browser implementiert wird.\cite{SPA} 
+\subsection{Unterscheidung}
+\subsubsection{Traditionelle Webanwendung}
 \begin{figure}
   \begin{center}
     \includegraphics[scale=1]{images/traditonal_web_app.png}
@@ -76,8 +78,42 @@ Eine \ac{SPA} beschreibt eine Web-Applikation, die auf einer Webseite abgebildet
   \captionsource{Eigenes Werk}
   \label{fig:tradweb}
 \end{figure}
-\subsection{Unterscheidung}
-Traditionelle Webanwendungen (siehe Abbildung \ref{fig:tradweb}) lösen bei jeder Anfrage des Nutzers einen Roundtrip \footnote{Senden einer Anfrage an einen Server und Erhalt der entsprechenden Antwort} aus zum Server aus. Serverseitig wird der Request von einem Controller entgegengenommen. Dieser agiert mit dem Model, welches die Daten der Anwendung enthält, und antwortet mit einem neuem \ac{HTML} - Dokument, welches der Browser schließlich anzeigt. Für den Nutzer ist dies durch das aktualisieren der gesamten Webseite sichtbar.
+Traditionelle Webanwendungen (siehe Abbildung \ref{fig:tradweb}) lösen bei jeder Anfrage des Nutzers einen Roundtrip \footnote{Senden einer Anfrage an einen Server und Erhalt der entsprechenden Antwort} aus zum Server aus.\\
+Serverseitig wird der Request von einem Controller entgegengenommen. Dieser agiert mit dem Model, welches die benötigten Daten liefert (beispielsweise durch eine Anfrage an eine Datenbank). Die Logik im Controller bestimmt anschließend das benötigte View und füllt dieses mit Daten.\\
+Der Server antwortet mit einem \ac{HTML} Dokument und der Brwoser stellt dies nach einer Aktualisierung der gesamten Webseite dar.
+\subsubsection{\acl{SPA}}
+\begin{figure}
+  \begin{center}
+    \includegraphics[scale=1.5]{images/spa_web_app.png}
+  \end{center}
+  \caption{\acl{SPA}}
+  \captionsource{Eigenes Werk}
+  \label{fig:spaweb}
+\end{figure}
+Bei einer \ac{SPA} hingegen wird die gesamte View Logik in den Client verglegt
+(siehe Abbildung \ref{fig:spaweb}). Die Kommunikation mit dem Server reduziert
+sich bei dieser Architektur auf reinen Austausch von Daten.\\
+Eine Aktion des Nutzers, beispielsweise ein Klick auf einen Butten, wird behandelt indem das
+View die Aktion an das Viewmodel weiterleitet. Das Viewmodel aktualisert den
+lokalen Zustand (State) der Anwendungeen und stell bei Bedarf eine Anfrage an den Server um Daten auszutauschen und aktualisiert anschließend
+das View.\\
+Dies hat diverse Auswirkungen auf die Anwendung: 
+\begin{description}
+  \item[Keine Aktualisierungen der gesamten Seite]In einer \ac{SPA} werden Views
+    nicht als gesamte \ac{HTML} Seite abgebildet. Vielmehr ist ein View als ein
+    Teil des \ac{DOM} anzusehen, welches zum richtigen Zeitpunkt mit dem
+    vorhergegangen View ausgetauscht wird. Nach dem initalen Laden der Seite
+    gibt es keine weiteren Aktualisierungen dieser.\\
+    Aus Sicht der \ac{UX}
+    gleicht dies mehr einer nativen Smartphone App als einer Webseite. Dies
+    führt zu einer vetrauteren Umgebung, insbesonders wenn die Anwenudng auf
+    einem Smartphone oder Tablet benutzt wird.
+    \item[Trennung von Client und Server]Durch die Verlagerung der
+      View Logik wird eine klare Abgrenzung zwischen Client und Server erreicht.
+      Die Kommunikation wird durch eine \ac{REST} Spezifikation ausgedrückt und
+      somit ist sowohl der Client als auch der Server leicht austuschbar. Diese
+      Entkopplung ist bekannt unter dem ``single responsibility principle'' Entwurfsmuster\footnote{https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html}.
+\end{description}
 
 \section{Datenstrukturen}
 \subsection{\acl{DBMS}}

@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:xhtml="http://www.w3.org/1999/xhtml"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg4230"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="spaweb.svg"
+   inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png"
+   inkscape:export-xdpi="403.1022"
+   inkscape:export-ydpi="403.1022">
+  <defs
+     id="defs4224">
+    <linearGradient
+       id="mx-gradient-none-0-none-0-s-0"
+       y2="542.07664"
+       x2="6.5581133"
+       y1="377.39513"
+       x1="6.5581133"
+       gradientTransform="matrix(1.3723459,0,0,0.72867925,183.63504,-13.290867)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop4412"
+         style="stop-color:none;stop-opacity:0"
+         offset="0%" />
+      <stop
+         id="stop4414"
+         style="stop-color:none;stop-opacity:0"
+         offset="100%" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.1493341"
+     inkscape:cx="-902.6303"
+     inkscape:cy="-504.93324"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g4495"
+     showgrid="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="3840"
+     inkscape:window-height="2057"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="-250.825,-138.90625"
+       orientation="0,1"
+       id="guide4545"
+       inkscape:locked="false" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid4547" />
+    <sodipodi:guide
+       position="-239.71249,-109.5375"
+       orientation="0,1"
+       id="guide899"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-240.77083,-118.53334"
+       orientation="0,1"
+       id="guide901"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-241.56458,-133.61459"
+       orientation="0,1"
+       id="guide903"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-224.89583,-141.55209"
+       orientation="0,1"
+       id="guide1003"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4227">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4495"
+       transform="matrix(0.26458333,0,0,0.26458333,-274.80552,389.15196)">
+      <path
+         id="path4423"
+         pointer-events="none"
+         stroke-miterlimit="10"
+         d="M 96.5,156.70913 V 226.63"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.86416346;stroke-miterlimit:10"
+         inkscape:export-xdpi="403.1022"
+         inkscape:export-ydpi="403.1022"
+         inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png" />
+      <path
+         id="path4425"
+         pointer-events="none"
+         stroke-miterlimit="10"
+         d="m 96.5,231.88 -3.5,-7 3.5,1.75 3.5,-1.75 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke:#000000;stroke-miterlimit:10"
+         inkscape:export-xdpi="403.1022"
+         inkscape:export-ydpi="403.1022"
+         inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png" />
+      <path
+         id="path4427"
+         pointer-events="none"
+         stroke-miterlimit="10"
+         d="M 140,233 V 156.70915"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.90266937;stroke-miterlimit:10"
+         inkscape:export-xdpi="403.1022"
+         inkscape:export-ydpi="403.1022"
+         inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png" />
+      <path
+         id="path4429"
+         pointer-events="none"
+         stroke-miterlimit="10"
+         d="m 140,156.12 3.5,7 -3.5,-1.75 -3.5,1.75 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke:#000000;stroke-miterlimit:10"
+         inkscape:export-xdpi="403.1022"
+         inkscape:export-ydpi="403.1022"
+         inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png" />
+      <g
+         id="g4435"
+         transform="translate(32.928572,164.83928)"
+         inkscape:export-xdpi="403.1022"
+         inkscape:export-ydpi="403.1022"
+         inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png">
+        <switch
+           id="switch4433"
+           transform="translate(12.142857,-0.35714286)">
+          <foreignObject
+             requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+             height="12"
+             width="43"
+             pointer-events="all"
+             style="overflow:visible;">
+            <xhtml:div
+               style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">Request<xhtml:br />
+</xhtml:div>
+            </xhtml:div>
+          </foreignObject>
+          <text
+             id="text4431"
+             font-size="12px"
+             y="12"
+             x="22"
+             style="font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">Request</text>
+        </switch>
+      </g>
+      <g
+         id="g4441"
+         transform="translate(147.63393,164.70536)"
+         inkscape:export-xdpi="403.1022"
+         inkscape:export-ydpi="403.1022"
+         inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png">
+        <switch
+           id="switch4439">
+          <foreignObject
+             requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+             height="12"
+             width="52"
+             pointer-events="all"
+             style="overflow:visible;">
+            <xhtml:div
+               style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">Response<xhtml:br />
+</xhtml:div>
+            </xhtml:div>
+          </foreignObject>
+          <text
+             id="text4437"
+             font-size="12px"
+             y="12"
+             x="26"
+             style="font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">Response</text>
+        </switch>
+      </g>
+      <g
+         id="g4447"
+         transform="translate(12.76204,44.183673)"
+         inkscape:export-xdpi="403.1022"
+         inkscape:export-ydpi="403.1022"
+         inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png">
+        <switch
+           id="switch4445">
+          <foreignObject
+             requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+             height="12"
+             width="31"
+             pointer-events="all"
+             style="overflow:visible;">
+            <xhtml:div
+               style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">Client<xhtml:br />
+</xhtml:div>
+            </xhtml:div>
+          </foreignObject>
+          <text
+             id="text4443"
+             font-size="12px"
+             y="12"
+             x="16"
+             style="font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">Client</text>
+        </switch>
+      </g>
+      <g
+         id="g4457"
+         transform="matrix(0.64280083,0,0,0.7000008,165.52903,200.56273)"
+         inkscape:export-xdpi="403.1022"
+         inkscape:export-ydpi="403.1022"
+         inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png">
+        <switch
+           id="switch4455">
+          <foreignObject
+             requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+             height="12"
+             width="30"
+             pointer-events="all"
+             style="overflow:visible;">
+            <xhtml:div
+               style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 32px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">HTML</xhtml:div>
+            </xhtml:div>
+          </foreignObject>
+          <g
+             id="g908">
+            <path
+               inkscape:export-ydpi="403.1022"
+               inkscape:export-xdpi="403.1022"
+               style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
+               inkscape:connector-curvature="0"
+               d="m 205.77504,188.84913 v 42.86 h -50 v -50 h 42.86 z"
+               stroke-miterlimit="10"
+               pointer-events="none"
+               id="path4449"
+               transform="translate(-166.49996,-201.49996)" />
+            <text
+               style="font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000"
+               x="15"
+               y="12"
+               font-size="12px"
+               id="text4453">JSON</text>
+          </g>
+        </switch>
+      </g>
+      <path
+         id="path4463"
+         pointer-events="none"
+         stroke-miterlimit="10"
+         d="M 28.635037,242 H 208.63504 v 69.70913 H 28.635037 Z"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.88223398;stroke-miterlimit:10;stroke-dasharray:none"
+         inkscape:export-xdpi="403.1022"
+         inkscape:export-ydpi="403.1022"
+         inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png" />
+      <g
+         id="g892"
+         inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png"
+         inkscape:export-xdpi="403.1022"
+         inkscape:export-ydpi="403.1022" />
+      <g
+         id="g4471"
+         transform="translate(139.50867,295.6244)"
+         inkscape:export-xdpi="403.1022"
+         inkscape:export-ydpi="403.1022"
+         inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png">
+        <switch
+           id="switch4469">
+          <foreignObject
+             requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+             height="12"
+             width="25"
+             pointer-events="all"
+             style="overflow:visible;">
+            <xhtml:div
+               style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 26px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">View<xhtml:br />
+</xhtml:div>
+            </xhtml:div>
+          </foreignObject>
+          <g
+             id="g897">
+            <rect
+               id="rect4465"
+               pointer-events="none"
+               ry="4.5"
+               rx="4.5"
+               height="30"
+               width="60"
+               y="71.116478"
+               x="123.63504"
+               style="fill:#fff2cc;stroke:#d6b656"
+               inkscape:export-xdpi="403.1022"
+               inkscape:export-ydpi="403.1022"
+               transform="translate(-107.50867,-298.03175)" />
+            <text
+               style="font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000"
+               x="45.63504"
+               y="-208.29088"
+               font-size="12px"
+               id="text4467">View</text>
+          </g>
+        </switch>
+      </g>
+      <g
+         id="g974"
+         transform="translate(23.135038,-30.290869)"
+         inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png"
+         inkscape:export-xdpi="403.1022"
+         inkscape:export-ydpi="403.1022">
+        <rect
+           inkscape:export-ydpi="403.1022"
+           inkscape:export-xdpi="403.1022"
+           style="fill:#fff2cc;stroke:#d6b656"
+           x="20.5"
+           y="292"
+           width="60"
+           height="30"
+           rx="4.5"
+           ry="4.5"
+           pointer-events="none"
+           id="rect4473" />
+        <g
+           inkscape:export-ydpi="403.1022"
+           inkscape:export-xdpi="403.1022"
+           transform="translate(32.5,299.5)"
+           id="g4479">
+          <switch
+             id="switch4477">
+            <foreignObject
+               style="overflow:visible;"
+               pointer-events="all"
+               width="33"
+               height="12"
+               requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 34px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
+                <xhtml:div
+                   style="display:inline-block;text-align:inherit;text-decoration:inherit;">Model<xhtml:br />
+</xhtml:div>
+              </xhtml:div>
+            </foreignObject>
+            <text
+               style="font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000"
+               x="17"
+               y="12"
+               font-size="12px"
+               id="text4475">Model</text>
+          </switch>
+        </g>
+      </g>
+      <g
+         id="g4487"
+         transform="translate(138.93175,269.40525)"
+         inkscape:export-xdpi="403.1022"
+         inkscape:export-ydpi="403.1022"
+         inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png">
+        <g
+           id="g968">
+          <rect
+             inkscape:export-ydpi="403.1022"
+             inkscape:export-xdpi="403.1022"
+             style="fill:#fff2cc;stroke:#d6b656"
+             x="158.63504"
+             y="291.70914"
+             width="60"
+             height="30"
+             rx="4.5"
+             ry="4.5"
+             pointer-events="none"
+             id="rect4481"
+             transform="translate(-163.93175,-299.40526)" />
+          <switch
+             id="switch4485">
+            <foreignObject
+               style="overflow:visible;"
+               pointer-events="all"
+               width="54"
+               height="12"
+               requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 55px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
+                <xhtml:div
+                   style="display:inline-block;text-align:inherit;text-decoration:inherit;">Controller<xhtml:br />
+</xhtml:div>
+              </xhtml:div>
+            </foreignObject>
+            <text
+               style="font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000"
+               x="25"
+               y="10"
+               font-size="12px"
+               id="text4483">Controller</text>
+          </switch>
+        </g>
+      </g>
+      <g
+         id="g4493"
+         transform="translate(26.904208,226.09136)"
+         inkscape:export-xdpi="403.1022"
+         inkscape:export-ydpi="403.1022"
+         inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png">
+        <switch
+           id="switch4491">
+          <foreignObject
+             requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+             height="12"
+             width="35"
+             pointer-events="all"
+             style="overflow:visible;">
+            <xhtml:div
+               style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">Server</xhtml:div>
+            </xhtml:div>
+          </foreignObject>
+          <text
+             id="text4489"
+             font-size="12px"
+             y="12"
+             x="18"
+             style="font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">Server</text>
+        </switch>
+      </g>
+      <g
+         id="g5470"
+         transform="matrix(0.25179924,0,0,0.20838176,122.21623,92.394886)"
+         inkscape:export-xdpi="403.1022"
+         inkscape:export-ydpi="403.1022"
+         inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png">
+        <rect
+           style="fill:#b3b4b5;fill-opacity:1;stroke-width:1.15357113"
+           y="-32.398014"
+           x="-366.36499"
+           height="39.107067"
+           width="244.99998"
+           id="rect4549" />
+        <rect
+           style="fill:#59b4d9;fill-opacity:1;stroke-width:2.06239462"
+           y="6.7091284"
+           x="-366.36493"
+           height="125"
+           width="244.99998"
+           id="rect4549-3" />
+        <g
+           transform="rotate(-90,-31.364968,-13.290904)"
+           id="g5448">
+          <g
+             transform="matrix(0.44444445,0,0,0.44444445,-16.869444,-325.16162)"
+             id="g5454">
+            <ellipse
+               transform="rotate(90,-31.365007,-13.290907)"
+               style="fill:#59b4d9;fill-opacity:1"
+               id="path5426"
+               cx="-31.365"
+               cy="-10.790947"
+               rx="25"
+               ry="27.5" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path5442"
+               d="m -32.614999,-35.290889 -15,10 5,5 10,-7 10,7 5,-5 z"
+               style="fill:#fffff6;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+            <rect
+               y="-30.290936"
+               x="-37.615002"
+               height="35.000046"
+               width="10"
+               id="rect5444"
+               style="fill:#fffff6;fill-opacity:1;stroke:none;stroke-width:0.49998486;stroke-miterlimit:4;stroke-dasharray:none" />
+          </g>
+        </g>
+        <rect
+           y="-22.290873"
+           x="-331.36496"
+           height="19"
+           width="198"
+           id="rect5456"
+           style="fill:#fffff6;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none" />
+      </g>
+      <path
+         id="path4421"
+         pointer-events="none"
+         d="m 26.944243,105.95785 c -0.05195,-2.15441 0.766265,-4.23472 2.266325,-5.77928 1.493567,-1.538863 3.545597,-2.416584 5.688541,-2.422284 4.779413,0.0456 8.675674,3.693274 8.851005,8.287054 0.181826,2.10881 -0.538982,4.20052 -2.00008,5.78498 -1.454604,1.57876 -3.513128,2.51348 -5.701528,2.58757 -4.837857,0.0912 -8.876981,-3.65907 -9.104263,-8.45804 z m -8.727624,20.29588 c 0.194813,-4.00674 1.870205,-7.73991 4.63655,-10.29328 2.1884,-1.92642 5.240471,-2.04041 7.539265,-0.28497 1.311741,0.86062 2.753357,1.55596 4.285887,2.06321 1.564998,0.60415 3.285846,0.50156 4.7924,-0.28497 0.824709,-0.35337 1.552011,-0.86632 2.142944,-1.49327 0.577945,-0.61554 1.584479,-0.74093 2.331263,-0.28497 1.311741,0.78083 2.493606,2.1658 3.415724,4.01244 0.89614,2.09741 1.363691,4.31451 1.376679,6.56011 z"
+         inkscape:connector-curvature="0"
+         style="fill:#00188d;stroke:none;stroke-width:0.60836798"
+         inkscape:export-xdpi="403.1022"
+         inkscape:export-ydpi="403.1022"
+         inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png" />
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.26558864;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="rect59"
+         width="210.00002"
+         height="84.999992"
+         x="13.635017"
+         y="61.709129"
+         inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png"
+         inkscape:export-xdpi="403.1022"
+         inkscape:export-ydpi="403.1022" />
+      <g
+         id="g4471-2"
+         transform="translate(139.50867,333.6244)"
+         inkscape:export-xdpi="403.1022"
+         inkscape:export-ydpi="403.1022"
+         inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png">
+        <switch
+           id="switch4469-9">
+          <foreignObject
+             requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+             height="12"
+             width="25"
+             pointer-events="all"
+             style="overflow:visible;">
+            <xhtml:div
+               style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 26px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">View<xhtml:br />
+</xhtml:div>
+            </xhtml:div>
+          </foreignObject>
+          <g
+             id="g897-3">
+            <rect
+               id="rect4465-9"
+               pointer-events="none"
+               ry="4.5"
+               rx="4.5"
+               height="30"
+               width="60"
+               y="71.116478"
+               x="123.63504"
+               style="fill:#fff2cc;stroke:#d6b656"
+               inkscape:export-xdpi="403.1022"
+               inkscape:export-ydpi="403.1022"
+               transform="translate(-107.50867,-298.03175)" />
+            <text
+               style="font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000"
+               x="45.622902"
+               y="-208.29088"
+               font-size="12px"
+               id="text4467-0">ViewModel</text>
+          </g>
+        </switch>
+      </g>
+      <g
+         id="g4457-8"
+         transform="matrix(0.64280083,0,0,0.7000008,53.388983,200.56472)"
+         inkscape:export-xdpi="403.1022"
+         inkscape:export-ydpi="403.1022"
+         inkscape:export-filename="/home/fred/repos/kloud-ms/documentation/images/spa_web_app.png">
+        <switch
+           id="switch4455-8">
+          <foreignObject
+             requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+             height="12"
+             width="30"
+             pointer-events="all"
+             style="overflow:visible;">
+            <xhtml:div
+               style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 32px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">HTML</xhtml:div>
+            </xhtml:div>
+          </foreignObject>
+          <g
+             id="g908-5">
+            <path
+               inkscape:export-ydpi="403.1022"
+               inkscape:export-xdpi="403.1022"
+               style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
+               inkscape:connector-curvature="0"
+               d="m 205.77504,188.84913 v 42.86 h -50 v -50 h 42.86 z"
+               stroke-miterlimit="10"
+               pointer-events="none"
+               id="path4449-0"
+               transform="translate(-166.49996,-201.49996)" />
+            <text
+               style="font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000"
+               x="15"
+               y="12"
+               font-size="12px"
+               id="text4453-9">JSON</text>
+          </g>
+        </switch>
+      </g>
+    </g>
+  </g>
+</svg>
