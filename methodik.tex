@@ -36,14 +36,23 @@ beispielsweise \acl{JS}\footnote{https://pchiusano.github.io/2016-09-15/static-v
 \end{description}
 Ein Nachteil von \acl{TS} ist die Tatsache, dass Typinformationen von externen
 Softwarebibliotheken für die vollständige Überprüfung des Typsystems
-vorhanden sein muss. Ein Großteil von \ac{JS} Bibliotheken wird ohne diese
+vorhanden sein müssen. Ein Großteil von \ac{JS} Bibliotheken wird ohne diese
 Informationen geliefert, weshalb für diese Typinformationen von der Community
-benutzt werden müssen.\\
-Da die Vorteile von statischer Typisierung den Nachteilen überwiegen, wird
-\acl{TS} als Frontend Sprache in Chromstahl verwendet.
+verwendet werden, die nicht zwingend auf dem gleichen Entwicklungsstand wie die
+Bibliotheken sind. Dies kann zu ``false-positives'' in der Überprüfung der Type führen.\\
+Da die Vorteile von statischer Typisierung den Nachteilen überwiegen, wurde
+entschieden, \acl{TS} als Frontend-Sprache zu verwenden.
 \section{Vergleich von Frontend-Frameworks}
-\subsection{Vue}
 \subsection{JQuery}
+JQuery, 2006 kreiert, ist eine JavaScript Bibliothek hauptsächlich für das
+Durchlaufen und Verändern des \ac{DOM}s.\footnote{https://jquery.com} Sie
+verbreitete sich schnell und ist zu einer der wichtigsten Bibliotheken im
+Web-Frontend geworden. Eine Studie von W3Techs aus dem Jahre 2017\footnote{https://w3techs.com/technologies/overview/javascript_library/all} bezeichnete
+JQuery als die am meisten verwendete Bibliothek im Web bei einem Vorsprung von
+55.1 Prozentpunken auf den zweiten Platz, der CSS Bibliothek Bootstrap\footnote{https://getbootstrap.com/}.\\
+Die Kern Funktionen, inbesondere die \ac{DOM} \ac{API}, sind heute in allen Standardbibliotheken von
+modernen Browsern sehr ähnlich implementiert zu finden.
+\subsection{Vue}
 \subsection{Eigene Implementation}
 \section{Vergleich von Web-Backend Sprachen}
 \subsection{Java}
