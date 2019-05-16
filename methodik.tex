@@ -52,12 +52,38 @@ JQuery als die am meisten verwendete Bibliothek im Web bei einem Vorsprung von
 55.1 Prozentpunken auf den zweiten Platz, der CSS Bibliothek Bootstrap\footnote{https://getbootstrap.com/}.\\
 Die Kern Funktionen, inbesondere die \ac{DOM} \ac{API}, sind heute in allen Standardbibliotheken von
 modernen Browsern sehr ähnlich implementiert zu finden.
-\subsection{Vue}
+\subsection{Vue.js}
+Vue.js wird seit 2013 von Evan You entwicklet.\footnote{https://vuejs.org} Es
+ist unter dem Gesichtspunkt, das Entwicklen von \acl{SPA} zu vereinfachen, ins
+Leben gerufen worden. Im Gegensatz zu JQuery interagiert der Programmierer nicht
+direkt mit dem \ac{DOM}. Vielmehr bietet Vue.js eine \ac{VDOM} Implementation
+und ermöglicht Wiederverwendbarkeit von Code durch das Konzept von Komponenten.
+Ein Router, der eine Navigation durch die Anwendungen ohne Aktualisierungen der
+gesamten Seite ermöglicht, rundet das Framework für die Erstellung von \acl{SPA}s ab.
 \subsection{Eigene Implementation}
+Eine weitere Überlegung zu Beginn des Projektes war es, eine eigene Lösung für
+ein \ac{SPA} Framework zu schreiben. Dies würde folgende Vorteile liefern:
+% TODO: Add more reasons
+\begin{description}
+\item [Typsicherheit]{Durch die Entscheidung \acl{TS} als Frontend-Sprache zu
+    verwenden, würde auch das eigene Frontend-Framework vollständig in \acl{TS}
+    entwickelt werdem. Dies bietet eine vollständige Typsicherheit im Framework.
+    Hierduch wird der in der Erläuterung von \acl{TS} aufgeführte Nachteil über
+    das Fehlen von Typinformationen in Drittanbieter Frameworks lösen}
+\item[Keine Abhängigkeit zu Drittanbieter Bibliotheken]{Die Verwendung eines
+    bestehenden Frameworks bildet eine gewisse Abhängigkeit zu den Entwicklern
+    desselben. Wird im Laufe der Entwicklung klar, dass eine gewisse Funktion
+    nicht gegeben ist, führt dies entweder zu arbeitsintensiven Umbauten oder
+    der Eröffnung eines Feature Requests mit einer entsprechenden Wartezeit. Bei
+    einer eigenen Lösung lassen gewünschte Funktionen direkt in das Framework einbauen}
+\end{description}
+Unter Berücksichtigung der genannten Punkte wurde entschieden, eine eigene
+Implementation zu enwickeln. Diese trägt den Namen ``eisen'' und ist ebenfalls
+Open Source unter der Apache Lizenz.\footnote{https://github.com/kloudsoftware/eisen}
 \section{Vergleich von Web-Backend Sprachen}
-\subsection{Java}
-\subsection{Go}
 \subsection{Javascript}
+\subsection{Go}
+\subsection{Java}
 \section{Vergleich von Backend-Frameworks}
 \subsection{Spring}
 \subsection{Play}
