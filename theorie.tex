@@ -9,14 +9,14 @@
 
 \section{\acl{DOM}}
 \subsection{Standards}
-\ac{XML} bildet eine Dokumentenhierarchie ab, welche einen maschinell lesbaren Aufbau eines
+\ac{XML} bildet eine Dokumenthierarchie ab, welche einen maschinell lesbaren Aufbau eines
 Dokumentes, mithilfe von einer generischen Syntax, definiert. \ac{XML} wird in
 verschiedenen Formen in vielen Geräten und Programmen genutzt um Datenstrukturen
-abzubilden. Diese Datenstrukturen können in verschiedenen, Domän-spezifischen
+abzubilden. Diese Datenstrukturen können in verschiedenen, Domäne-spezifischen
 varianten beschrieben werden, wie zum Beispiel
 
 \begin{itemize}
-\item Scaleable Vector Graphic (SVG)
+\item Scalable Vector Graphic (SVG)
 \item Rich Site Summary (RSS)
 \item Extensible Hypertext Markup Language (XHTML)
 \end{itemize}
@@ -33,7 +33,7 @@ Baumstruktur. \cite{harold}
 \end{figure}
 
 Eine Baumstruktur (\ref{fig:binarytree}) besteht aus einem Wurzel-knoten,
-welcher mithilfe von Kanten ``Kindknoten'' oder auch ``innere Knoten'' besitzen
+welcher mithilfe von Kanten ``Kind knoten'' oder auch ``innere Knoten'' besitzen
 kann. Hat ein Knoten keine ``Kinder'', wird er als ``Blatt'' bezeichnet.
 Baumstrukturen sind für die Darstellung von Daten aufgrund ihrer einfachen
 Gestaltung vorteilhaft. Eine Baumstruktur kann sehr leicht mithilfe von
@@ -75,7 +75,7 @@ Eine \ac{SPA} beschreibt eine Web-Applikation, die auf einer Webseite abgebildet
   \label{fig:tradweb}
 \end{figure}
 Traditionelle Webanwendungen (siehe Abbildung \ref{fig:tradweb}) lösen bei jeder Anfrage des Nutzers einen Roundtrip \footnote{Senden einer Anfrage an einen Server und Erhalt der entsprechenden Antwort} aus zum Server aus.\\
-Serverseitig wird der Request von einem Controller entgegengenommen. Dieser agiert mit dem Model, welches die benötigten Daten liefert (beispielsweise durch eine Anfrage an eine Datenbank). Die Logik im Controller bestimmt anschließend das benötigte View und füllt dieses mit Daten.\\
+Server-seitig wird der Request von einem Controller entgegengenommen. Dieser agiert mit dem Model, welches die benötigten Daten liefert (beispielsweise durch eine Anfrage an eine Datenbank). Die Logik im Controller bestimmt anschließend das benötigte View und füllt dieses mit Daten.\\
 Der Server antwortet mit einem \ac{HTML} Dokument und der Browser stellt dies nach einer Aktualisierung der gesamten Webseite dar.
 \subsubsection{\acl{SPA}}
 \begin{figure}
@@ -90,19 +90,19 @@ Bei einer \ac{SPA} hingegen wird die gesamte View Logik in den Client verlagert
 (siehe Abbildung \ref{fig:spaweb}). Die Kommunikation mit dem Server reduziert
 sich bei dieser Architektur auf reinen Austausch von Daten.\\
 Eine Aktion des Nutzers, beispielsweise ein Klick auf einen Button, wird behandelt indem das
-View die Aktion an das Viewmodel weiterleitet. Das Viewmodel aktualisert den
-lokalen Zustand (State) der Anwendungeen und stell bei Bedarf eine Anfrage an den Server um Daten auszutauschen und aktualisiert anschließend
+View die Aktion an das Viewmodel weiterleitet. Das Viewmodel aktualisiert den
+lokalen Zustand (State) der Anwendungen und stell bei Bedarf eine Anfrage an den Server um Daten auszutauschen und aktualisiert anschließend
 das View.\\
 Dies hat diverse Auswirkungen auf die Anwendung: 
 \begin{description}
   \item[Keine Aktualisierungen der gesamten Seite]In einer \ac{SPA} werden Views
     nicht als gesamte \ac{HTML} Seite abgebildet. Vielmehr ist ein View als ein
     Teil des \ac{DOM} anzusehen, welches zum richtigen Zeitpunkt mit dem
-    vorhergegangen View ausgetauscht wird. Nach dem initalen Laden der Seite
+    vorhergegangen View ausgetauscht wird. Nach dem initialen Laden der Seite
     gibt es keine weiteren Aktualisierungen dieser.\\
     Aus Sicht der \ac{UX}
     gleicht dies mehr einer nativen Smartphone App als einer Webseite. Dies
-    führt zu einer vetrauteren Umgebung, insbesonders wenn die Anwendung auf
+    führt zu einer vertrauteren Umgebung, insbesondere wenn die Anwendung auf
     einem Smartphone oder Tablet benutzt wird.
   \item[Trennung von Client und Server]Durch die Verlagerung der
     View Logik wird eine klare Abgrenzung zwischen Client und Server erreicht.
@@ -116,7 +116,7 @@ Dies hat diverse Auswirkungen auf die Anwendung:
 \subsection{\acl{ERM}}
 \section{Plug-in}
 Modularität war von Anfang an ein wichtiger Gesichtspunkt bei der Entwicklung
-von Chromstahl. Es sollte möglich sein, das \ac{CMS} effizent an neue Aufgaben
+von Chromstahl. Es sollte möglich sein, das \ac{CMS} effizient an neue Aufgaben
 anzupassen, beispielsweise für ein Video Portal. Eine solche Modularität lässt
 sich über Plug-ins realisieren.
 \subsection{Definition}
@@ -125,11 +125,11 @@ Funktion zu einer bestehenden Software
 hinzufügt.\footnote{https://en.wikipedia.org/wiki/Plug-in\_(computing)}
 \subsection{Implementationsansätze}
 % TODO: flesh this out
-Zu Beginn des Projektes wurden zwei Ansätze zur Implementierung von Plugins für
+Zu Beginn des Projektes wurden zwei Ansätze zur Implementierung von Plug-ins für
 Chromstahl konzipiert. Diese werden im folgenden erläutert und im späteren
 Verlauft dieser Arbeit konkret behandelt.
 \subsubsection{Dynamisch}
-Der erste Ansatz war das dynmaische Laden von Plug-ins. Dies bedeutet, dass
+Der erste Ansatz war das dynamische Laden von Plug-ins. Dies bedeutet, dass
 Plug-ins zur Laufzeit aufgelöst und geladen werden. 
 \subsubsection{Statisch}
 % LocalWords:  Superset
