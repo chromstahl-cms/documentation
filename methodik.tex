@@ -12,10 +12,35 @@ Die Syntax von \ac{JS} basiert, genau wie etwa C oder
 Java, auf geschweiften Klammern. Es werden diverse Paradigma wie Funktionale und
 Objekt Orientierte Programmierung untersützt. \acl{JS} liefert eine umfangreiche
 Standardbibliothek mit einer einer Vielzahl von
-\ac{API}s zum Manipulieren eines \ac{DOM}s. Die Sprache ist dynamisch\footnote{https://en.wikipedia.org/wiki/Type\_system\#Combining\_static\_and\_dynamic\_type\_checking} und
-``duck''\footnote{https://en.wikipedia.org/wiki/Duck\_typing} typisiert. % TODO % better wording
-\subsection{Typescript}
-\subsection{Web-ASM}
+\ac{API}s zum Manipulieren eines \ac{DOM}s. Die Sprache ist
+dynamisch\footnote{https://en.wikipedia.org/wiki/Type\_system\#Combining\_static\_and\_dynamic\_type\_checking}
+typisiert.
+\subsection{\acl{TS}}
+\ac{TS} ist ein von Microsoft entwickeltes Superset von
+\acl{JS}\footnote{https://www.typescriptlang.org}. Es erweitert \ac{JS} um eine
+optional verwendbare strikte Typisierung, die beim Übersetzen zu \ac{JS}
+überprüft wird. Dies hat zwei Vorteile gegenüber einer dynamischen Sprache wie
+beispielsweise \acl{JS}\footnote{https://pchiusano.github.io/2016-09-15/static-vs-dynamic.html}:
+\begin{description}
+  \item[Entdecken von Fehlern zur Kompilierzeit]{Viele semantische Fehler werden
+    während des Kompilierens erkannt. Hierzu gehören Fehler wie das Übergeben
+    von Parametern eines falschen Typs in eine Funktion oder das aufrufen einer
+    Funktion, die nicht existiert}
+  \item[Bessere Lesbarkeit]{Statisch typisierter Quellcode ist für den
+      Programmierer einfacher lesbar, da Typen von Parametern und Varaiblen
+      direkt ersichtlich sind und nichts aus dem Name oder dem Kontext
+      herausgefunden werden müssen}
+  \item[Bessere Editor Untersützung]{Dadurch, dass Typinformationen zur
+      Kompilierzeit zur Verfügung stehen, kann der Edtor dem Programmierer eine
+      bessere Autovervollständigung bieten}
+\end{description}
+Ein Nachteil von \acl{TS} ist die Tatsache, dass Typinformationen von externen
+Softwarebibiolotheken für die vollständige Überprüfung des Typsystems
+vorhanden sein muss. Ein Großteil von \ac{JS} Bibliotheken wird ohne diese
+Informationen geliefert, weshalb für diese Typinformationen von der Community
+benutzt werden müssen.\\
+Da die Vorteile von statischer Typisierung den Nachteilen überwiegen, wird
+\acl{TS} als Frontend Sprache in Chromstahl verwendet.
 \section{Vergleich von Frontend-Frameworks}
 \subsection{Vue}
 \subsection{JQuery}
