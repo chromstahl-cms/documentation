@@ -122,16 +122,22 @@ sich über Plug-ins realisieren.
 \subsection{Definition}
 Ein Plug-in (auch Add-on genannt) ist eine Komponente die eine spezielle
 Funktion zu einer bestehenden Software
-hinzufügt.\footnote{https://en.wikipedia.org/wiki/Plug-in\_(computing)}
+hinzufügt.\footnote{https://en.wikipedia.org/wiki/Plug-in\_(computing)}. Die
+Software stellt \ac{API}s bereit, gegen welche ein Plug-in entwickelt werden kann.
 \subsection{Implementationsansätze}
 % TODO: flesh this out
 Zu Beginn des Projektes wurden zwei Ansätze zur Implementierung von Plug-ins für
 Chromstahl konzipiert. Diese werden im folgenden erläutert und im späteren
 Verlauft dieser Arbeit konkret behandelt.
 \begin{description}
-\item[Dynamisch]{Der erste Ansatz war das dynamische Laden von Plug-ins. Dies
-    bedeutet, dass Plug-ins zur Laufzeit aufgelöst und geladen werden}
-\item[Statisch]{Statisches Laden von Plug-ins beschreibt das Auflösen von
-    Plug-ins zur Kompilierzeit der Anwendung.}
+\item[Dynamisch]{Zum einen gibt es den Ansatz, Plug-ins dynamisch zu laden. Dies
+  bedeutet, dass bei Start der Anwendung Plug-ins gesucht und entsprechend
+  gealden werden. Dies führt zu einer höheren Flexibilität beim Benutzen der
+  Anwendung, bringt allerdings auch einen höheren Entwicklungsaufwand mitsich}
+\item[Statisch]{Der zweite Ansatz ist das statische Laden von Plug-ins. Hierbei
+    werden Plug-ins zur Kompilierzeit aufgelöst. Dies führt zu einem Kompilat,
+    welches alle Plug-ins gebündelt enthält und somit verlässlicher
+    bereitzustellen ist. Allerdings zieht eine Änderung an den Plug-ins der
+    Anwendung ein erneutes Kompilieren mitsich}
 \end{description}
 % LocalWords:  Superset
