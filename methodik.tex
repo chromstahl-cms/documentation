@@ -79,7 +79,7 @@ ein \ac{SPA} Framework zu schreiben. Dies würde folgende Vorteile liefern:
 \end{description}
 Unter Berücksichtigung der genannten Punkte wurde entschieden, eine eigene
 Implementation zu enwickeln. Diese trägt den Namen ``eisen'' und ist ebenfalls
-Open Source unter der Apache Lizenz.\footnote{https://github.com/kloudsoftware/eisen}
+Open Source unter der Apache Lizenz verfügbar.\footnote{https://github.com/kloudsoftware/eisen}
 \section{Vergleich von Web-Backend Sprachen}
 \subsection{\acl{TS}}
 \acl{TS} erlangt mehr und mehr Aufmerksamkeit als Śprache fürs Web-Backend. Die
@@ -91,11 +91,35 @@ werden, wodurch die gesamte Applikation in einer Sprache abgebildet werden kann.
 Desweitern bietet Node.js asynchrones \ac{IO} wodurch eine hohe Performance bei
 vielen gleichzeitigen Verbindungen erreicht werden kann.
 \subsection{Go}
+Mit dem Ziel Netzwerkpogrammierung zu vereinfachen und Skalierbarkeit über
+mehrere CPU-Kerne oder gar ganze Rechenzentren sicherer zu
+gestalten, began Google 2007 mit der Entwicklung von Go.\footnote{https://talks.golang.org/2012/splash.article} Das Ergebnis
+ist eine kompilierte, ``garbage
+collected''\footnote{https://en.wikipedia.org/wiki/Garbage\_collection\_(computer\_science)}
+und statisch typisierte Sprache.\footnote{https://golang.org}\\
+Großen Anklang fand Go im Bereich der Containersierung, beispielsweise ist die
+Container Lösung Docker\footnote{https://www.docker.com} in Go implementiert, und in der Serverseitigen
+Infrakstruktur: Der Cloud Infrakstruktur Anbieter Digitalocean hat große Teile
+seiner Infrakstruktur in Go
+implementiert.\footnote{https://speakerdeck.com/farslan/go-at-digitalocean}\\
+Die Vorteile der Sprache sind die umfangreiche Standardbibliothek, vorallem im
+Bereich der Netzwerkpogrammierung, die kurzen Kompilierzeiten und die hohe
+Geschwindigkeit der Sprache geführt. Die, zum Zeitpunkt dieser Arbeit, nicht vorhandene Unterstützung von Generics\footnote{https://en.wikipedia.org/wiki/Generics\_in\_Java}
+und teilweise umständliche Behandeln von Fehlerzuständen haben wir als Nachteile angesehen.
 \subsection{Java}
+Einer der Platzhirsche der Programmiersprachen. Sun Microsystems begann 1995 mit
+der Entwicklung der Sprache, nach der Übernahme von Sun Microsystems durch Oracle wurde die
+Entwicklung unter neuem Firmennamen weitergeführt. Unter dem Namen OpenJDK ist
+eine OpenSource Implementation unter der \ac{GPL} verfügbar, die seit Version 7 als
+Referenzimplementation gilt.\footnote{https://openjdk.java.net}\\
+Als Vorteile der Sprache zählen vorallem das umfangreiche Typsystem mit
+Unterstützung von Generics, die große Auswahl an Drittanbieter Bibliotheken und Frameworks und,
+im Falle dieses Projektes, die fundierte Erfahrung beider Projektteilnehmer mit
+der Sprache.
 \section{Vergleich von Backend-Frameworks}
-\subsection{Spring}
-\subsection{Play}
 \subsection{JavaEE}
+\subsection{Play}
+\subsection{Spring}
 \section{Vergleich von Datenbank-Lösungen}
 \subsection{Relational Database}
 \subsection{Document Oriented Database}
