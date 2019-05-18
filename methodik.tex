@@ -43,6 +43,10 @@ Bibliotheken sind. Dies kann zu ``false-positives'' in der Überprüfung der Typ
 Da die Vorteile von statischer Typisierung den Nachteilen überwiegen, wurde
 entschieden, \acl{TS} als Frontend-Sprache zu verwenden.
 \section{Vergleich von Frontend-Frameworks}
+Eines der Ziele von Chromstahl ist es, schnell auf Anforderungen reagierenn zu
+können. Somit stand bei der Entwicklung des Frontends die Auswahl eines
+Frontend-Frameworks an, mit dem langfristig die Ziele des Projektes gesichert
+werden können. Folgende Abwägungen wurden getroffen.
 \subsection{JQuery}
 JQuery, 2006 kreiert, ist eine JavaScript Bibliothek hauptsächlich für das
 Durchlaufen und Verändern des \ac{DOM}s.\footnote{https://jquery.com} Sie
@@ -81,6 +85,9 @@ Unter Berücksichtigung der genannten Punkte wurde entschieden, eine eigene
 Implementation zu enwickeln. Diese trägt den Namen ``eisen'' und ist ebenfalls
 Open Source unter der Apache Lizenz verfügbar.\footnote{https://github.com/kloudsoftware/eisen}
 \section{Vergleich von Web-Backend Sprachen}
+Analog zum Frontend stehen auch im Backend verschiedene Sprachen zur
+Implementierung zur Verfügung. Ebenfalls wurde auf eine langfrisitge Verwendung
+einer Technolgie geachtet, um spätere arbeitsaufwendige Umentscheidungen zu verhindern.
 \subsection{\acl{TS}}
 \acl{TS} erlangt mehr und mehr Aufmerksamkeit als Śprache fürs Web-Backend. Die
 Technologie nennt sich Node.js\footnote{https://nodejs.org/en/}. Hierbei wird
@@ -115,7 +122,10 @@ Referenzimplementation gilt.\footnote{https://openjdk.java.net}\\
 Als Vorteile der Sprache zählen vorallem das umfangreiche Typsystem mit
 Unterstützung von Generics, die große Auswahl an Drittanbieter Bibliotheken und Frameworks und,
 im Falle dieses Projektes, die fundierte Erfahrung beider Projektteilnehmer mit
-der Sprache.
+der Sprache.\\
+% TODO  Add disadvantages
+Unter Abwägung der genannten Vor- und Nachteile wurde entschiededn, Java als
+Sprache für das Backend von Chromstahl zu verwenden.
 \section{Vergleich von Backend-Frameworks}
 \subsection{JavaEE}
 \subsection{Play}
