@@ -127,9 +127,33 @@ der Sprache.\\
 Unter Abwägung der genannten Vor- und Nachteile wurde entschiededn, Java als
 Sprache für das Backend von Chromstahl zu verwenden.
 \section{Vergleich von Backend-Frameworks}
-\subsection{JavaEE}
+Die Entscheidung, Java als Sprache für das Backend zu verwenden, zieht die Frage
+mit sich, welches Framework verwendet werden soll. Nachfolgend werden drei
+Kandidaten genauer betrachtet
+\subsection{\acl{JakartaEE}}
+\ac{JakartaEE} erweitert die Java Spezifikationen um weitere, hauptsächlich zum
+Entwicklen von verteilten Systemen und Webanwendunge gedachten, Spezifikationen.\footnote{https://jakarta.ee/}
+Oracle begann 1999 mit der
+Enwticklung unter dem Namen ``Java 2 Platform, Enterprise Edition''. Im Jahre
+2006 wurde der Name auf ``Java Platform, Enterprise Edition'' geändert. 2017
+wurde die Entwicklung in die Hände der Eclipse Foundation übergeben und der Name
+änderte sich zum heute gebräuchlichen
+\acs{JakartaEE}.\footnote{https://adtmag.com/articles/2017/09/12/java-ee-moving-to-eclipse.aspx}\\
+Da es sich hierbei jediglich um Spezifikationen handelt, bedarf es einer
+Implementation. Damit eine Implementation kompatibel zu \ac{JakartaEE} ist, muss
+sie alle geforderten Spezifikationen unterstützten. Unterschiede gibt es in
+zusätzlichen Funktionen (Fehlertoleranz, Start-up Zeit, etc.) und in den
+Lizenzen.\footnote{https://en.wikipedia.org/wiki/Java\_Platform,\_Enterprise\_Edition\#Certified\_referencing\_runtimes}\\
+Mithilfe einer Implementation ist es bereits möglich, umfassende Webanwendungen
+zu programmieren. Oftmals ist es jedoch gewünscht, Lösungen für bekannete
+Probleme zu erhalten. Hier helfen auf \ac{JakartaEE} aufbauende Frameworks, wie
+Play und Spring.
 \subsection{Play}
+% TODO: Write something or remove
 \subsection{Spring}
+Das von Pivotal\footnote{https://pivotal.io/} entwickelte Framework kombiniert einen ``Dependency injection
+Container''\footnote{https://en.wikipedia.org/wiki/Dependency\_injection}, Funktionen zum Zugriff auf diverse Datenbanken und ein \ac{MVC}
+Webframework.\footnote{https://spring.io/}
 \section{Vergleich von Datenbank-Lösungen}
 \subsection{Relational Database}
 \subsection{Document Oriented Database}
