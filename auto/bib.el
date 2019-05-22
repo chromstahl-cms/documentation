@@ -7,6 +7,7 @@
    (LaTeX-add-bibitems
     "harold"
     "SPA"
-    "cleancode"))
+    "cleancode"
+    "cloud-native-java"))
  :latex)
 
