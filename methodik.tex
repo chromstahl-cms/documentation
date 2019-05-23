@@ -149,6 +149,8 @@ zu programmieren. Oftmals ist es jedoch gewünscht, Lösungen für bekannete
 Probleme zu erhalten. Hier helfen auf \ac{JakartaEE} aufbauende Frameworks, wie
 die nachfolgend betrachteten Vertreter Play und Spring.
 \subsection{Play}
+Play ist ein von Lightbend und Zengularity entwickeltes Webframework. Es ist in
+Scala entwickelt, ist aber vollständig mit Java kompatibel.\footnote{https://www.playframework.com/}
 % TODO: Write something or remove
 \subsection{Spring}
 Das von Pivotal\footnote{https://pivotal.io/} entwickelte Framework kombiniert einen ``Dependency injection
@@ -176,7 +178,10 @@ anderen Lösungen: Es hat sich ein großes Ecosystem mit unter verschiedensten
 Bedingungen getesteten Bibiolotheken entwickelt. Diese reichen von Lösungen zur
 Verbindungen mit Datenbanken, über Schnitstellen zu In-Memory Caches wie Redis
 oder Konfigurations Management von Microservices bis hin zu Lösungen für
-Auhentifkation und Authentisierung von Nutzern.
+Auhentifkation und Authentisierung von Nutzern.\\
+Es wurde entschieden, Spring als Basis des Backends von Chromstahl zu verwenden
+- Nicht zuletzt auf Grund der positiven Erfahrungen aus der Umsetzung von
+anderen Webprojekten mit diesem Framework.
 \section{Vergleich von Datenbank-Lösungen}
 \subsection{Relational Database}
 \subsection{Document Oriented Database}
