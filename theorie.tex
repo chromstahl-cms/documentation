@@ -28,9 +28,42 @@ von Kentico Software seit dem Jahre 2006 bietet das \ac{CMS} unter anderem Funkt
 Verwaltung von digitalen Inhalten, E-commerce und für Online Marketing.\\
 Bei Kentico kamen C\# und die ASP.NET Plattform zum Einsatz.
 
-% TODO write about MVC and MVVM
+% TODO Maybe change order of these topics
 \section{\acs{MVC}}
+\ac{MVC} ist ein Entwurfsmuster welches Verweundung in der Entwicklung von
+Benutzeroberflächen findet. Ziel ist es, Softwarekomponenten wiederverwenden und
+pararell an Frontend und Backend entwickeln zu können.\footnote{https://en.wikipedia.org/wiki/Model-view-controller}\\
+Es werden drei Komponenten beschrieben:
+\begin{description}
+\item[Model]{Hält und verwaltet alle Datenstrukturen der Anwendung. Das Model ist komplett
+  unabhängig vom View. Wird vom Controller aufgerufen}
+\item[View]{Repräsentation der Daten, etwa eine Tabelle oder ein Diagramm. Es
+    ist möglich, verschiedene Repräsentationen für denselben Datensatz zu definieren}
+\item[Controller]{Nimmt Eingaben des Nutzers entgegen, validiert diese und ruft
+    das Model auf}
+\end{description}
+Originell wurde \ac{MVC} als Entwurfsmuster für Desktop Anwendungen entwickelt,
+es erfährt aber große Annahme auch in Webanwendungen.
 \section{\acs{MVVM}}
+\ac{MVVM} ist ein an \ac{MVC} angelehntes Entwursmuster. Das Ziel ist es, die
+Entwicklung von Geschäftslogik und Logik zur Darstellung einer
+Benutzeroberfläche noch weiter zu trennen.\\
+Es werden folgende Komponenten definiert:
+\begin{description}
+\item[Model]{Beschreibt einen Weg, die Anwendungen mit Daten zu versorgen. Dies
+    kann beispielsweise durch Logik zum Zugriff auf eine Datenbank realisiert werden}
+\item[View]{Wie im \ac{MVC} beschreibt das View wie Daten dem Nutzer angezeigt
+    werden sollen. Zusätzlich nimm das View die Rolle des Controllers aus dem
+    \ac{MVC} Musters ein und nimmt Benutzereingaben entegegen}
+\item[ViewModel]{Das ViewModel ist eine Abstraktion der Daten aus dem Model.
+    Datensätze aus, beispielsweise der Datenbank, werden in Repräsentationen
+    konvertiert, die dem Nutzer angezeigt werden können. Ein Beispiel für solche
+    Konvertierungen ist das Präsentieren eines Datums in einer für den Nutzer
+    vertrauten Schreibweise.\\
+    Felder im View werden über den Binder direkt an diese Repräsentationen gebunden}
+\item[Binder]{Bindet Daten aus dem ViewModel an die korrekten Stellen im View.
+    Dies stellt die Synchroniesierung des Views und ViewModels sicher.}
+\end{description}
 
 \section{\acl{DOM}}
 \subsection{Standards}
