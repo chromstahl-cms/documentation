@@ -183,5 +183,17 @@ Es wurde entschieden, Spring als Basis des Backends von Chromstahl zu verwenden
 - Nicht zuletzt auf Grund der positiven Erfahrungen aus der Umsetzung von
 anderen Webprojekten mit diesem Framework.
 \section{Vergleich von Datenbank-Lösungen}
+Für ein \ac{CMS} wird, in der regel, eine Form von \ac{DBMS} benötigt, um Dokumente,
+Nutzer  und Inhalte zu verwalten. Hierbei musste zwischen zwei grundsätzlich verschiedenen Ansätzen entschieden werden.
 \subsection{Relational Database}
+Das relationales Datenbankmanagementsystem wurde von Edgar F. Codd 1970 vorgestellt. Das Prinzip der relationalen Datebnbank wurde entworfen um dem Nutzer das Verständnis der zugrundeliegenden Speicherarchitektur abzunehmen. Zugleich wurde von Codd eine Sprache vorgeschlagen um mit der Datenbank zu interagieren (Structured Query Language - SQL\footnote{https://de.wikipedia.org/wiki/SQL})
+Eine relationale Datenbank bildet ``relationen'' zwischen Tabellen, so kann einfach vermieden werden, dass Daten
+nicht mehrfach abbgebildet werden müssen.
+
+\cite{codd}
+
+Dies hat den Nachteil, dass eine komplexe Abfrage leicht langsam werden kann,
+ da viele Tabellen geladen und durchsucht werden müssen.
+
 \subsection{Document Oriented Database}
+Die Document Oriented Database 
