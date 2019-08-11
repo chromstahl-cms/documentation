@@ -19,8 +19,7 @@ Foundation.\footnote{https://wordpress.org/} Laut ``Built With'' verwenden zum
 Zeitpunkt dieser Arbeit 48\% der Webseiten mit einem \ac{CMS}
 Wordpress.\footnote{https://trends.builtwith.com/cms abgerufen am 24.05.2019} Dies
 macht es zur am weitesten verbreiteten \ac{CMS} Lösung.\\
-Als Technologien werden
-PHP und Javascript verwendet und durch eine große Anzahl an Plug-ins kann das
+Als Technologien werden PHP und Javascript verwendet und durch eine große Anzahl an Plug-ins kann das
 \ac{CMS} beliebig erweitert werden.
 \subsubsection{Kentico CMS}
 Im Gegensatz zu Wordpress ist Kentico CMS eine properitäre Software.\footnote{https://www.kentico.com/product/kentico12} Entwicklet
@@ -37,11 +36,12 @@ Es werden drei Komponenten beschrieben:
 \begin{description}
 \item[Model]{Hält und verwaltet alle Datenstrukturen der Anwendung. Das Model ist komplett
   unabhängig vom View. Wird vom Controller aufgerufen}
-\item[View]{Repräsentation der Daten, etwa eine Tabelle oder ein Diagramm. Es
+\item[View]{Repräsentation der Daten, etwa in Form einer Tabelle oder eines Diagramms. Es
     ist möglich, verschiedene Repräsentationen für denselben Datensatz zu definieren}
 \item[Controller]{Nimmt Eingaben des Nutzers entgegen, validiert diese und ruft
     das Model auf}
 \end{description}
+% TODO find sources
 Originell wurde \ac{MVC} als Entwurfsmuster für Desktop Anwendungen entwickelt,
 es erfährt aber große Annahme auch in Webanwendungen.
 \section{\acs{MVVM}}
@@ -62,7 +62,7 @@ Es werden folgende Komponenten definiert:
     vertrauten Schreibweise.\\
     Felder im View werden über den Binder direkt an diese Repräsentationen gebunden}
 \item[Binder]{Bindet Daten aus dem ViewModel an die korrekten Stellen im View.
-    Dies stellt die Synchroniesierung des Views und ViewModels sicher.}
+    Dies stellt die Synchronisierung des Views und ViewModels sicher.}
 \end{description}
 
 \section{\acl{DOM}}
@@ -102,8 +102,8 @@ rekursiven Funktionen durchlaufen werden, da ein Knoten immer genau ein
 \subsection{Definition}
 
 Ein \ac{VDOM} ist eine Repräsentation eines \ac{DOM} welche durch arbiträre
-Datenstrukturen abgebildet werden kann. Eine häufige Implementation ist durch
-Javascript-Objekte, welche die Daten des \ac{DOM} abbilden.
+Datenstrukturen abgebildet werden kann. Eine häufige Implementation findet sich
+in Form von Javascript-Objekte, welche die Daten des \ac{DOM} abbilden.
 
 \subsection{Motivation}
 
@@ -114,7 +114,7 @@ die Änderung der Daten bedenken muss.
 \subsection{Nachteile}
 
 Eine Repräsentation des \ac{DOM} als \ac{VDOM} führt zwangsläufig dazu, dass die
-Struktur des \ac{DOM} doppelt vorhanden ist. Desweiteren ist das finden der
+Struktur des \ac{DOM} doppelt vorhanden ist. Desweiteren ist das Finden der
 Änderungen zwischen \ac{DOM} und \ac{VDOM} nicht trivial und langsamer als eine
 ``direkte'' Änderung der Daten im \ac{DOM}. Weiterhin muss der Web-Browser
 zusätzlich zum finden der Änderungen zwischen \ac{DOM} und \ac{VDOM} immer
@@ -132,7 +132,7 @@ Eine \ac{SPA} beschreibt eine Web-Applikation, die auf einer Webseite abgebildet
   \captionsource{Eigenes Werk}
   \label{fig:tradweb}
 \end{figure}
-Traditionelle Webanwendungen (siehe Abbildung \ref{fig:tradweb}) lösen bei jeder Anfrage des Nutzers einen Roundtrip \footnote{Senden einer Anfrage an einen Server und Erhalt der entsprechenden Antwort} aus zum Server aus.\\
+Traditionelle Webanwendungen (siehe Abbildung \ref{fig:tradweb}) lösen bei jeder Anfrage des Nutzers einen Roundtrip \footnote{Senden einer Anfrage an einen Server und Erhalt der entsprechenden Antwort} zum Server aus.\\
 Server-seitig wird der Request von einem Controller entgegengenommen. Dieser agiert mit dem Model, welches die benötigten Daten liefert (beispielsweise durch eine Anfrage an eine Datenbank). Die Logik im Controller bestimmt anschließend das benötigte View und füllt dieses mit Daten.\\
 Der Server antwortet mit einem \ac{HTML} Dokument und der Browser stellt dies nach einer Aktualisierung der gesamten Webseite dar.
 \subsubsection{\acl{SPA}}
@@ -146,7 +146,7 @@ Der Server antwortet mit einem \ac{HTML} Dokument und der Browser stellt dies na
 \end{figure}
 Bei einer \ac{SPA} hingegen wird die gesamte View Logik in den Client verlagert
 (siehe Abbildung \ref{fig:spaweb}). Die Kommunikation mit dem Server reduziert
-sich bei dieser Architektur auf reinen Austausch von Daten.\\
+sich bei dieser Architektur auf den reinen Austausch von Daten.\\
 Eine Aktion des Nutzers, beispielsweise ein Klick auf einen Button, wird behandelt indem das
 View die Aktion an das Viewmodel weiterleitet. Das Viewmodel aktualisiert den
 lokalen Zustand (State) der Anwendungen und stell bei Bedarf eine Anfrage an den Server um Daten auszutauschen und aktualisiert anschließend
@@ -191,11 +191,11 @@ Verlauft dieser Arbeit konkret behandelt.
 \item[Dynamisch]{Zum einen gibt es den Ansatz, Plug-ins dynamisch zu laden. Dies
   bedeutet, dass bei Start der Anwendung Plug-ins gesucht und entsprechend
   gealden werden. Dies führt zu einer höheren Flexibilität beim Benutzen der
-  Anwendung, bringt allerdings auch einen höheren Entwicklungsaufwand mitsich}
+  Anwendung, auf der anderen Seite allerdings auch zu einem höheren Entwicklungsaufwand}
 \item[Statisch]{Der zweite Ansatz ist das statische Laden von Plug-ins. Hierbei
     werden Plug-ins zur Kompilierzeit aufgelöst. Dies führt zu einem Kompilat,
     welches alle Plug-ins gebündelt enthält und somit verlässlicher
-    bereitzustellen ist. Allerdings zieht eine Änderung an den Plug-ins der
-    Anwendung ein erneutes Kompilieren mitsich}
+    bereitzustellen ist. Der Nachteil dieses Verfahrens ist, dass eine Änderung
+    an einem Plugin eine erneute Kompilierung erfordert}
 \end{description}
 % LocalWords:  Superset

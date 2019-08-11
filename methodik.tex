@@ -21,11 +21,12 @@ typisiert.
 optional verwendbare strikte Typisierung, die beim Übersetzen zu \ac{JS}
 überprüft wird. Dies hat zwei Vorteile gegenüber einer dynamischen Sprache wie
 beispielsweise \acl{JS}\footnote{https://pchiusano.github.io/2016-09-15/static-vs-dynamic.html}:
+% TODO Find studies
 \begin{description}
   \item[Entdecken von Fehlern zur Kompilierzeit]{Viele semantische Fehler werden
-    während des Kompilierens erkannt. Hierzu gehören Fehler wie das Übergeben
-    von Parametern eines falschen Typs in eine Funktion oder das aufrufen einer
-    Funktion, die nicht existiert}
+      während des Kompilierens erkannt. Hierzu gehören Fehler wie das Übergeben
+      von Parametern eines falschen Typs in eine Funktion oder das aufrufen einer
+      Funktion, die nicht existiert}
   \item[Bessere Lesbarkeit]{Statisch typisierter Quellcode ist für den
       Programmierer einfacher lesbar, da Typen von Parametern und Variablen
       direkt ersichtlich sind und nichts aus dem Name oder dem Kontext
@@ -39,11 +40,13 @@ Softwarebibliotheken für die vollständige Überprüfung des Typsystems
 vorhanden sein müssen. Ein Großteil von \ac{JS} Bibliotheken wird ohne diese
 Informationen geliefert, weshalb für diese Typinformationen von der Community
 verwendet werden, die nicht zwingend auf dem gleichen Entwicklungsstand wie die
-Bibliotheken sind. Dies kann zu ``false-positives'' in der Überprüfung der Type führen.\\
+Bibliotheken sind. Dies kann zu ``false-positives'' in der Überprüfung der Typen
+führen.\\
+% TODO flesh this out
 Da die Vorteile von statischer Typisierung den Nachteilen überwiegen, wurde
 entschieden, \acl{TS} als Frontend-Sprache zu verwenden.
 \section{Vergleich von Frontend-Frameworks}
-Eines der Ziele von Chromstahl ist es, schnell auf Anforderungen reagierenn zu
+Eines der Ziele von Chromstahl ist es, schnell auf Anforderungen reagieren zu
 können. Somit stand bei der Entwicklung des Frontends die Auswahl eines
 Frontend-Frameworks an, mit dem langfristig die Ziele des Projektes gesichert
 werden können. Folgende Abwägungen wurden getroffen.
@@ -73,13 +76,13 @@ ein \ac{SPA} Framework zu schreiben. Dies würde folgende Vorteile liefern:
     verwenden, würde auch das eigene Frontend-Framework vollständig in \acl{TS}
     entwickelt werdem. Dies bietet eine vollständige Typsicherheit im Framework.
     Hierduch wird der in der Erläuterung von \acl{TS} aufgeführte Nachteil über
-    das Fehlen von Typinformationen in Drittanbieter Frameworks lösen}
+    das Fehlen von Typinformationen in Drittanbieter Frameworks gelöst}
 \item[Keine Abhängigkeit zu Drittanbieter Bibliotheken]{Die Verwendung eines
     bestehenden Frameworks bildet eine gewisse Abhängigkeit zu den Entwicklern
     desselben. Wird im Laufe der Entwicklung klar, dass eine gewisse Funktion
     nicht gegeben ist, führt dies entweder zu arbeitsintensiven Umbauten oder
     der Eröffnung eines Feature Requests mit einer entsprechenden Wartezeit. Bei
-    einer eigenen Lösung lassen gewünschte Funktionen direkt in das Framework einbauen}
+    einer eigenen Lösung lassen sich gewünschte Funktionen direkt in das Framework einbauen}
 \end{description}
 Unter Berücksichtigung der genannten Punkte wurde entschieden, eine eigene
 Implementation zu enwickeln. Diese trägt den Namen ``eisen'' und ist ebenfalls
@@ -149,6 +152,7 @@ zu programmieren. Oftmals ist es jedoch gewünscht, Lösungen für bekannete
 Probleme zu erhalten. Hier helfen auf \ac{JakartaEE} aufbauende Frameworks, wie
 die nachfolgend betrachteten Vertreter Play und Spring.
 \subsection{Play}
+% TODO: Write something or remove
 Play ist ein von Lightbend und Zengularity entwickeltes Webframework. Es ist in
 Scala entwickelt, ist aber vollständig mit Java
 kompatibel.\footnote{https://www.playframework.com/} Das Zeil des Projektes ist
@@ -156,7 +160,6 @@ es, die Produktivität von Entwicklern zu erhöhen. Dies wird umgesetzt durch
 einfache Konfiguration, ``Hot code reloading''\footnote{Just-in-Time Kompilierung
   und Nachladen von Code zur Entwicklungszeit} und die Darstellung von
 Fehlermeldungen im Browser.
-% TODO: Write something or remove
 \subsection{Spring}
 Das von Pivotal\footnote{https://pivotal.io/} entwickelte Framework kombiniert einen ``Dependency injection
 Container''\footnote{https://en.wikipedia.org/wiki/Dependency\_injection}, Funktionen zum Zugriff auf diverse Datenbanken und ein \ac{MVC}
@@ -175,7 +178,7 @@ und ist mittlerweile zu dem Industriestandard bei der Entwicklung von
 Webanwendungen mit Java geworden. Pivotal erleichterte mit der Veröffentlichung
 von Spring Boot\footnote{https://spring.io/projects/spring-boot} die Verwendung
 von Spring mithilfe einer vorgefertigeten Konfiguration, eines eingebetteten
-Webservers und einer möglichen zur schnelllen Zusammenstellung von
+Webservers und einer Möglichkeit zur schnelllen Zusammenstellung von
 Spring-Komponenten nochmals. Somit verwenden auch mehr und mehr mittelständische
 Entwicklungsfirmen Spring zur Entwicklung von Web Lösungen.\\
 Durch den großen Anklang ergibt sich ein großer Vorteil von Spring gegenüber
